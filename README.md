@@ -73,12 +73,12 @@ Functions
 - 
 In WQ_dependencies
 1. data_organize: organizes the data with other functions
-2. add_water_body: groups each individual site into water bodies. May be useful to look at for site selection
-3. add_WSC_ID: Adds the water survey of canada ID for flow/level data
-4. build.df: builds the general dataframe based on inputs
-5. make_plot: makes and controls the aesthetics of the standard plots
-6. make_CQ_plot: makes and controls the aesthetics of the CQ plots
-7. stat_graphic: makes and controls the aesthetics of the statistical trend analysis heatmaps
+3. add_water_body: groups each individual site into water bodies. May be useful to look at for site selection
+4. add_WSC_ID: Adds the water survey of canada ID for flow/level data
+5. build.df: builds the general dataframe based on inputs
+6. make_plot: makes and controls the aesthetics of the standard plots
+7. make_CQ_plot: makes and controls the aesthetics of the CQ plots
+8. stat_graphic: makes and controls the aesthetics of the statistical trend analysis heatmaps
 
 In WQ_plot_version2
 1. Water_Quality_df: builds the dataframe and goes through case-specific adjustments
@@ -96,12 +96,13 @@ Assumptions
 -	Data at the detection limit is treated as a value 50% of such detection limit
 -   If data for a site + parameter combo has >50% of its values at the detection limit, data is not statistically significant and therefore not included
 -	Chose to look at burn history for 1 year, 5 years, 8 years, and 10 years as the significant time markers
+-	For pH and turbidity, field measurements were used when available, as opposed to physical parameters, for the most accuracy 
 
 Known Issues & Limitations
 - 
 -	“Lockhart River at Outlet of Artillery Lake” has Turbidity units in JTU (very old measurements)
 -	Some sites have two sampling locations (lake water vs river water)
--	
+-	Mercury measurements that were in units of ug/L are removed due to all of them being at the detection limit
 
 Contributions
 -
