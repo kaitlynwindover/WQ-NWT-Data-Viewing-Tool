@@ -103,6 +103,7 @@ Known Issues & Limitations
 -	“Lockhart River at Outlet of Artillery Lake” has Turbidity units in JTU (very old measurements)
 -	Some sites have two sampling locations (lake water vs river water)
 -	Mercury measurements that were in units of ug/L are removed due to all of them being at the detection limit
+-	The order of the standard plots for individual sites are sorted by latitude. This sometimes is the same as up-stream/down-stream order and sometimes not
 
 Contributions
 -
