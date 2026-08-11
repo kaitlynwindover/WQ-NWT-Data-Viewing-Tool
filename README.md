@@ -80,7 +80,7 @@ In WQ_dependencies
 7. make_CQ_plot: makes and controls the aesthetics of the CQ plots
 8. stat_graphic: makes and controls the aesthetics of the statistical trend analysis heatmaps
 
-In WQ_plot_version2
+In WQ_plotting_and_trends
 1. Water_Quality_df: builds the dataframe and goes through case-specific adjustments
 2. water_Quality_plots: loops through make_plot for all input cases
 3. concentration_flow_relation: produces C-Q plots with a log scale
