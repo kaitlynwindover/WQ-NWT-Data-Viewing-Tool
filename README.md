@@ -17,7 +17,7 @@ Scripts to Have Open in Environment
 - 
 - WQ_Analysis.R : Most changes to the code for running different inputs happen here. This is the script that contains all others. 
 
-- WQ_plot_version2.R : Has a function for each different output the code provides
+- WQ_plotting_and_trends.R : Has a function for each different output the code provides
 
 - WQ_dependencies.R : Contains any chunks of code that may be repeated, such as make_plot
 
