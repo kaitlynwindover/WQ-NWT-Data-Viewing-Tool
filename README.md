@@ -134,6 +134,7 @@ A prompt:
 
 "I want to know how the concentrations of dissolved organic carbon and total suspended solids are changing between the years 2000 to 2025 in Hay River specifically. I am going to compare the data over the years using the month of July. Additionally, I want to see if there are any significant trends with these parameters and area burned for the last year and the last 10 years. I would also like to see how the concentrations change with the flow of the river."
 
+
 What the inputs would look like:
 
 water_quality_analysis <- function(
