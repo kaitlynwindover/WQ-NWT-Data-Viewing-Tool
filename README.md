@@ -163,6 +163,7 @@ Contributions
 - Robin Staples
 - Emma Gregory
 - Adler Grienke
+- Lydia Morrow
 - Kaitlyn Windover
 
 To contact for questions about the code/workflow: 23vrx1@queensu.ca
