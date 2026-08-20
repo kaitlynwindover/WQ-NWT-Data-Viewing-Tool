@@ -75,24 +75,37 @@ Outputs
 The console will also output messages letting you know if some data cannot be retrieved and the reason. As well, it will show the values of the dataframes for the trend analysis'. A useful parameter to have may be n (number of data points).
 
 Functions
-- 
+-
 In WQ_dependencies
+-
 1. data_organize: organizes the data using other functions
-3. add_water_body: **groups each individual site into their respective water bodies.** This may be useful to look at for site selection.
-4. add_WSC_ID: **Adds the water survey of canada ID for flow/level data.** Most sites use flow data. Some are lakes and therefore use water level data, as it makes more sense.
-5. build.df: builds the general dataframe based on inputs
-6. make_plot: makes and controls the aesthetics of the standard plots 
-7. make_CQ_plot: makes and controls the aesthetics of the concentration-flow plots
-8. stat_graphic: makes and controls the aesthetics of the statistical trend analysis heatmaps
+   
+2. add_water_body: **groups each individual site into their respective water bodies.** This may be useful to look at for site selection.
+   
+3. add_WSC_ID: **Adds the water survey of canada ID for flow/level data.** Most sites use flow data. Some are lakes and therefore use water level data, as it makes more sense.
+   
+4. build.df: builds the general dataframe based on inputs
+   
+5. make_plot: makes and controls the aesthetics of the standard plots
+    
+6. make_CQ_plot: makes and controls the aesthetics of the concentration-flow plots
+    
+7. stat_graphic: makes and controls the aesthetics of the statistical trend analysis heatmaps
 
 In WQ_plotting_and_trends
+-
 1. Water_Quality_df: builds the dataframe and goes through **case-specific adjustments**
+
 2. water_Quality_plots: loops through make_plot for all input cases. This will plot the **concentration of each parameter against time.**
-3. concentration_flow_relation: produces C-Q plots with a log scale. This will use the flow data to **plot concentration against flow.** 
-4. water_Quality_trends: **Performs the Mann-Kendall test**. Tau - ranges from -1 to +1 and answers - **how strong is the trend and how is it changing over time?** P-value answers - **is it a real trend or is it probable that it happened by chance? The lower the value, the more significant.** 
+   
+3. concentration_flow_relation: produces C-Q plots with a log scale. This will use the flow data to **plot concentration against flow.**
+   
+4. water_Quality_trends: **Performs the Mann-Kendall test**. Tau - ranges from -1 to +1 and answers - **how strong is the trend and how is it changing over time?** P-value answers - **is it a real trend or is it probable that it happened by chance? The lower the value, the more significant.**
+   
 5. pearson_correlation: **Performs the Pearson correlation.** This uses other data of the sites, such as burn area and burn percentage, and compares it against parameter concentrations. **R value - as X changes, does Y tend to change with it in a consistent linear way, and how strongly?** P-value answers - **is it a real trend or is it probable that it happened by chance? The lower the value, the more significant.** 
 
 In WQ_Analysis
+-
 1. water_quality_analysis: takes in all user inputs, runs through all the functions, and produces all results
 
 Assumptions
